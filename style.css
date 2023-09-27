@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Un\ mundo\ diferente\ 2.0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.7); /* Agregar un fondo semi-transparente para resaltar el contenido */
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+#image {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
